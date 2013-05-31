@@ -1,0 +1,19 @@
+<head>
+  <meta http-equiv = 'Content-Language' content = 'en'/>
+  
+</head>
+
+<!--<input lang=”en” width="60" height="60" size="60" onchange="handleSpeech();" x-webkit-speech>-->
+<script type="text/javascript" src="speech.js"></script>
+<script type="text/javascript">
+
+initSpeechRecognition();
+
+</script>
+
+<p id="output"></p>
+
+<input type="button" onclick="startSpeechRecognition();"  value="Start" />
+<input type="button" onclick="stopSpeechRecognition();" value="Stop" />
+
+
