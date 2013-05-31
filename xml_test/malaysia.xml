@@ -1,0 +1,187 @@
+<queryresult success="true" error="false" numpods="15" datatypes="AdministrativeDivision,Airport,City,Country,MetropolitanArea,Mountain,Ocean,Waterfall" timedout="" timedoutpods="" timing="4.255" parsetiming="0.226" parsetimedout="false" recalculate="" id="MSPa7831f1b3g630i14g32900005e7eac5b66620a09" host="http://www4a.wolframalpha.com" server="55" related="http://www4a.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa7841f1b3g630i14g3290000185764c557i072i8&s=55" version="2.6">
+<pod title="Input interpretation" scanner="Identity" id="Input" position="100" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>Malaysia | capital city</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7851f1b3g630i14g32900004984g1fh5h74b3d9?MSPStoreType=image/gif&s=55" alt="Malaysia | capital city" title="Malaysia | capital city" width="161" height="23"/>
+</subpod>
+</pod>
+<pod title="Result" scanner="Identity" id="Result" position="200" error="false" numsubpods="1" primary="true">
+<subpod title="" primary="true">
+<plaintext>Kuala Lumpur, Malaysia</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7861f1b3g630i14g32900000i6c79ii93h951g9?MSPStoreType=image/gif&s=55" alt="Kuala Lumpur, Malaysia" title="Kuala Lumpur, Malaysia" width="161" height="18"/>
+</subpod>
+</pod>
+<pod title="Populations" scanner="Data" id="Population:CityData" position="300" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+city population | 1.627 million people (country rank: 1st) (2010 estimate) metro area population | 7.24 million people (Kuala Lumpur metro area) (2007 estimate)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7871f1b3g630i14g32900003b88ea89ai6827f4?MSPStoreType=image/gif&s=55" alt="city population | 1.627 million people (country rank: 1st) (2010 estimate) metro area population | 7.24 million people (Kuala Lumpur metro area) (2007 estimate)" title="city population | 1.627 million people (country rank: 1st) (2010 estimate) metro area population | 7.24 million people (Kuala Lumpur metro area) (2007 estimate)" width="496" height="102"/>
+</subpod>
+<states count="1">
+<state name="Show history" input="Population:CityData__Show history"/>
+</states>
+</pod>
+<pod title="Location" scanner="Data" id="Location:CityData" position="400" error="false" numsubpods="1">
+<subpod title="">
+<plaintext/>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7881f1b3g630i14g329000048ga2071f47hh6bf?MSPStoreType=image/gif&s=55" alt="" title="" width="298" height="98"/>
+</subpod>
+<states count="2">
+<state name="World map" input="Location:CityData__World map"/>
+<state name="Show coordinates" input="Location:CityData__Show coordinates"/>
+</states>
+<infos count="1">
+<info>
+<link url="http://maps.google.com?ie=UTF8&z=12&t=k&ll=3.16%2C101.71&q=3.16%20N%2C%20101.71%20E" text="Satellite image"/>
+</info>
+</infos>
+</pod>
+<pod title="Local map" scanner="Data" id="Map:CityData" position="500" error="false" numsubpods="1">
+<subpod title="">
+<plaintext/>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7891f1b3g630i14g32900006490a57dbfbi7699?MSPStoreType=image/gif&s=55" alt="" title="" width="256" height="278"/>
+</subpod>
+<states count="3">
+<statelist count="13" value="50 miles across" delimiters="">
+<state name="3 miles across" input="Map:CityData__3 miles across"/>
+<state name="6 miles across" input="Map:CityData__6 miles across"/>
+<state name="10 miles across" input="Map:CityData__10 miles across"/>
+<state name="20 miles across" input="Map:CityData__20 miles across"/>
+<state name="50 miles across" input="Map:CityData__50 miles across"/>
+<state name="100 miles across" input="Map:CityData__100 miles across"/>
+<state name="190 miles across" input="Map:CityData__190 miles across"/>
+<state name="390 miles across" input="Map:CityData__390 miles across"/>
+<state name="770 miles across" input="Map:CityData__770 miles across"/>
+<state name="1500 miles across" input="Map:CityData__1500 miles across"/>
+<state name="3100 miles across" input="Map:CityData__3100 miles across"/>
+<state name="5800 miles across" input="Map:CityData__5800 miles across"/>
+<state name="11000 miles across" input="Map:CityData__11000 miles across"/>
+</statelist>
+<state name="Metric" input="Map:CityData__Metric"/>
+<state name="Larger display" input="Map:CityData__Larger display"/>
+</states>
+<infos count="1">
+<info>
+<link url="http://maps.google.com?ie=UTF8&z=12&t=k&ll=3.16%2C101.71&q=3.16%20N%2C%20101.71%20E" text="Satellite image"/>
+</info>
+</infos>
+</pod>
+<pod title="Current local time" scanner="Data" id="CurrentTime:CityData" position="600" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>1:09 pm MYT | Friday, May 31, 2013</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7901f1b3g630i14g32900002e421h7d87f7dh0f?MSPStoreType=image/gif&s=55" alt="1:09 pm MYT | Friday, May 31, 2013" title="1:09 pm MYT | Friday, May 31, 2013" width="241" height="18"/>
+</subpod>
+</pod>
+<pod title="Current weather" scanner="Data" id="WeatherPod:CityData" position="700" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+88 °F | relative humidity: 63% | wind: 7 mph | cloudy
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7911f1b3g630i14g329000037159543aii79d01?MSPStoreType=image/gif&s=55" alt="88 °F | relative humidity: 63% | wind: 7 mph | cloudy" title="88 °F | relative humidity: 63% | wind: 7 mph | cloudy" width="382" height="22"/>
+</subpod>
+<states count="2">
+<state name="Show history" input="WeatherPod:CityData__Show history"/>
+<state name="Show metric" input="WeatherPod:CityData__Show metric"/>
+</states>
+</pod>
+<pod title="Nearby cities" scanner="Data" id="CityHierarchyInfo:CityData" position="800" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+Ampang Jaya, Selangor | 4 miles east | 644136 people Petaling Jaya, Selangor | 7 miles west-southwest | 520698 people Shah Alam, Selangor | 12 miles west-southwest | 481654 people Subang Jaya, Selangor | 12 miles west | 833571 people Klang, Selangor | 20 miles west-southwest | 879867 people (straight-line distances between city centers)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7921f1b3g630i14g32900005d80bce626134he3?MSPStoreType=image/gif&s=55" alt="Ampang Jaya, Selangor | 4 miles east | 644136 people Petaling Jaya, Selangor | 7 miles west-southwest | 520698 people Shah Alam, Selangor | 12 miles west-southwest | 481654 people Subang Jaya, Selangor | 12 miles west | 833571 people Klang, Selangor | 20 miles west-southwest | 879867 people (straight-line distances between city centers)" title="Ampang Jaya, Selangor | 4 miles east | 644136 people Petaling Jaya, Selangor | 7 miles west-southwest | 520698 people Shah Alam, Selangor | 12 miles west-southwest | 481654 people Subang Jaya, Selangor | 12 miles west | 833571 people Klang, Selangor | 20 miles west-southwest | 879867 people (straight-line distances between city centers)" width="477" height="165"/>
+</subpod>
+<states count="2">
+<state name="Show metric" input="CityHierarchyInfo:CityData__Show metric"/>
+<state name="More" input="CityHierarchyInfo:CityData__More"/>
+</states>
+</pod>
+<pod title="Nearby airports" scanner="Data" id="AirportHierarchyInfo:CityData" position="900" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+Simpang Airport | 3 miles south Sultan Abdul Aziz Shah Airport | 11 miles west Kuala Lumpur International Airport | 28 miles south (straight-line distances between city center and airport)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7931f1b3g630i14g32900001f5a9aghfc1ddaih?MSPStoreType=image/gif&s=55" alt="Simpang Airport | 3 miles south Sultan Abdul Aziz Shah Airport | 11 miles west Kuala Lumpur International Airport | 28 miles south (straight-line distances between city center and airport)" title="Simpang Airport | 3 miles south Sultan Abdul Aziz Shah Airport | 11 miles west Kuala Lumpur International Airport | 28 miles south (straight-line distances between city center and airport)" width="378" height="109"/>
+</subpod>
+<states count="1">
+<state name="Show metric" input="AirportHierarchyInfo:CityData__Show metric"/>
+</states>
+</pod>
+<pod title="Geographic properties" scanner="Data" id="GeographicProperties:CityData" position="1000" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>elevation | 121 ft</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7941f1b3g630i14g32900003i594i57c7d4b7gb?MSPStoreType=image/gif&s=55" alt="elevation | 121 ft" title="elevation | 121 ft" width="142" height="36"/>
+</subpod>
+<states count="1">
+<state name="Show metric" input="GeographicProperties:CityData__Show metric"/>
+</states>
+<infos count="1">
+<info>
+<units count="1">
+<unit short="ft" long="feet"/>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7951f1b3g630i14g329000054b7c8fbi5fhd148?MSPStoreType=image/gif&s=55" width="71" height="26"/>
+</units>
+</info>
+</infos>
+</pod>
+<pod title="Nearby features" scanner="Data" id="FeaturesHierarchyInfo:CityData" position="1100" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+waterfall | Chamang Falls (328 feet) | 26 miles north-northeast mountain | Gunung Tahan (7175 feet) | 107 miles north-northeast mountain | Gunung Korbu (7162 feet) | 108 miles north-northwest (straight-line distances between city center and feature coordinates)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7961f1b3g630i14g329000026fiehhe9ddg14f4?MSPStoreType=image/gif&s=55" alt="waterfall | Chamang Falls (328 feet) | 26 miles north-northeast mountain | Gunung Tahan (7175 feet) | 107 miles north-northeast mountain | Gunung Korbu (7162 feet) | 108 miles north-northwest (straight-line distances between city center and feature coordinates)" title="waterfall | Chamang Falls (328 feet) | 26 miles north-northeast mountain | Gunung Tahan (7175 feet) | 107 miles north-northeast mountain | Gunung Korbu (7162 feet) | 108 miles north-northwest (straight-line distances between city center and feature coordinates)" width="478" height="109"/>
+</subpod>
+<states count="1">
+<state name="Show metric" input="FeaturesHierarchyInfo:CityData__Show metric"/>
+</states>
+</pod>
+<pod title="Nearest sea" scanner="Data" id="OceansHierarchyInfo:CityData" position="1200" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+Strait of Malacca (25 miles west-southwest) (straight-line distance between city center and shore)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7971f1b3g630i14g3290000222420gbib0f5if9?MSPStoreType=image/gif&s=55" alt="Strait of Malacca (25 miles west-southwest) (straight-line distance between city center and shore)" title="Strait of Malacca (25 miles west-southwest) (straight-line distance between city center and shore)" width="290" height="36"/>
+</subpod>
+<states count="1">
+<state name="Show metric" input="OceansHierarchyInfo:CityData__Show metric"/>
+</states>
+</pod>
+<pod title="Nickname" scanner="Data" id="BasicInformation:CityData" position="1300" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>K.L.</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7981f1b3g630i14g329000040g58c5cha40186g?MSPStoreType=image/gif&s=55" alt="K.L." title="K.L." width="26" height="18"/>
+</subpod>
+</pod>
+<pod title="Notable people born in Kuala Lumpur" scanner="Data" id="NotablePeople:CityData" position="1400" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+Ananda Krishnan (businessperson) (1938) Michael Gough (actor) (1917) Dulcie Gray (novelist, etc.) (1919) Joshua Fernandez (film director) (1974) Tan Chai Ho (politician, etc.) (1949)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP7991f1b3g630i14g329000055e36g87g2eg954a?MSPStoreType=image/gif&s=55" alt="Ananda Krishnan (businessperson) (1938) Michael Gough (actor) (1917) Dulcie Gray (novelist, etc.) (1919) Joshua Fernandez (film director) (1974) Tan Chai Ho (politician, etc.) (1949)" title="Ananda Krishnan (businessperson) (1938) Michael Gough (actor) (1917) Dulcie Gray (novelist, etc.) (1919) Joshua Fernandez (film director) (1974) Tan Chai Ho (politician, etc.) (1949)" width="283" height="111"/>
+</subpod>
+<states count="2">
+<state name="Show dates" input="NotablePeople:CityData__Show dates"/>
+<state name="Show deaths" input="NotablePeople:CityData__Show deaths"/>
+</states>
+</pod>
+<pod title="Founding date" scanner="Data" id="FoundingDates:CityData" position="1500" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>1972 (41 years ago) (incorporation date)</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP8001f1b3g630i14g32900002db20if292d2g0cf?MSPStoreType=image/gif&s=55" alt="1972 (41 years ago) (incorporation date)" title="1972 (41 years ago) (incorporation date)" width="265" height="18"/>
+</subpod>
+<states count="1">
+<state name="More" input="FoundingDates:CityData__More"/>
+</states>
+</pod>
+<sources count="8">
+<source url="http://www.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html" text="Administrative division data"/>
+<source url="http://www.wolframalpha.com/sources/CityDataSourceInformationNotes.html" text="City data"/>
+<source url="http://www.wolframalpha.com/sources/CountryDataSourceInformationNotes.html" text="Country data"/>
+<source url="http://www.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html" text="Metropolitan area data"/>
+<source url="http://www.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html" text="Open street map"/>
+<source url="http://www.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html" text="People data"/>
+<source url="http://www.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html" text="US census data"/>
+<source url="http://www.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html" text="Weather data"/>
+</sources>
+</queryresult>

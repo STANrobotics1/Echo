@@ -1,0 +1,116 @@
+<queryresult success="true" error="false" numpods="7" datatypes="MathematicalFunctionIdentity" timedout="" timedoutpods="" timing="1.283" parsetiming="0.12" parsetimedout="false" recalculate="" id="MSPa163821ec7h24ef80c3ca00004i26e224a9c2bh34" host="http://www4a.wolframalpha.com" server="49" related="http://www4a.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa163921ec7h24ef80c3ca000048f80276ied1hche&s=49" version="2.6">
+<pod title="Input" scanner="Identity" id="Input" position="100" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>100!</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164021ec7h24ef80c3ca000062bf61b0ac712293?MSPStoreType=image/gif&s=49" alt="100!" title="100!" width="30" height="18"/>
+</subpod>
+<infos count="1">
+<info text="n! is the factorial function">
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164121ec7h24ef80c3ca000013161id95d883538?MSPStoreType=image/gif&s=49" alt="n! is the factorial function" title="n! is the factorial function" width="162" height="16"/>
+<link url="http://reference.wolfram.com/mathematica/ref/Factorial.html" text="Documentation" title="Mathematica"/>
+<link url="http://functions.wolfram.com/GammaBetaErf/Factorial" text="Properties" title="Wolfram Functions Site"/>
+<link url="http://mathworld.wolfram.com/Factorial.html" text="Definition" title="MathWorld"/>
+</info>
+</infos>
+</pod>
+<pod title="Result" scanner="Identity" id="Result" position="200" error="false" numsubpods="1" primary="true">
+<subpod title="" primary="true">
+<plaintext>
+93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164221ec7h24ef80c3ca000014h63746eadc42c4?MSPStoreType=image/gif&s=49" alt="93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000" title="93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000" width="493" height="65"/>
+</subpod>
+</pod>
+<pod title="Decimal approximation" scanner="Numeric" id="DecimalApproximation" position="300" error="false" numsubpods="1" primary="true">
+<subpod title="">
+<plaintext>
+9.3326215443944152681699238856266700490715968264... × 10^157
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164321ec7h24ef80c3ca00001h6fe820abbd901i?MSPStoreType=image/gif&s=49" alt="9.3326215443944152681699238856266700490715968264... × 10^157" title="9.3326215443944152681699238856266700490715968264... × 10^157" width="448" height="21"/>
+</subpod>
+<states count="1">
+<state name="More digits" input="DecimalApproximation__More digits"/>
+</states>
+</pod>
+<pod title="Number length" scanner="Integer" id="NumberLength" position="400" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>158 decimal digits</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164421ec7h24ef80c3ca00003hd0gbg63aebfbbh?MSPStoreType=image/gif&s=49" alt="158 decimal digits" title="158 decimal digits" width="119" height="18"/>
+</subpod>
+</pod>
+<pod title="Alternative representations" scanner="MathematicalFunctionData" id="AlternativeRepresentations:MathematicalFunctionIdentityData" position="500" error="false" numsubpods="3">
+<subpod title="">
+<plaintext>100! = Gamma(101)</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164521ec7h24ef80c3ca00000f3hd61h22570ib7?MSPStoreType=image/gif&s=49" alt="100! = Gamma(101)" title="100! = Gamma(101)" width="93" height="28"/>
+</subpod>
+<subpod title="">
+<plaintext>100! = Gamma(101, 0)</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164621ec7h24ef80c3ca00000da1g79c3457fge8?MSPStoreType=image/gif&s=49" alt="100! = Gamma(101, 0)" title="100! = Gamma(101, 0)" width="109" height="28"/>
+</subpod>
+<subpod title="">
+<plaintext>100! = (1)_100</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164721ec7h24ef80c3ca00005hh2a10g48bi8069?MSPStoreType=image/gif&s=49" alt="100! = (1)_100" title="100! = (1)_100" width="87" height="29"/>
+</subpod>
+<states count="1">
+<state name="More" input="AlternativeRepresentations:MathematicalFunctionIdentityData__More"/>
+</states>
+<infos count="4">
+<info text="Γ(x) is the gamma function">
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164821ec7h24ef80c3ca00005i56c8c071f1c0i7?MSPStoreType=image/gif&s=49" alt="Γ(x) is the gamma function" title="Γ(x) is the gamma function" width="172" height="16"/>
+<link url="http://reference.wolfram.com/mathematica/ref/Gamma.html" text="Documentation" title="Mathematica"/>
+<link url="http://functions.wolfram.com/GammaBetaErf/Gamma" text="Properties" title="Wolfram Functions Site"/>
+<link url="http://mathworld.wolfram.com/GammaFunction.html" text="Definition" title="MathWorld"/>
+</info>
+<info text="Γ(a, x) is the incomplete gamma function">
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP164921ec7h24ef80c3ca0000236cf4fd8d43b59b?MSPStoreType=image/gif&s=49" alt="Γ(a, x) is the incomplete gamma function" title="Γ(a, x) is the incomplete gamma function" width="262" height="16"/>
+<link url="http://reference.wolfram.com/mathematica/ref/Gamma.html" text="Documentation" title="Mathematica"/>
+<link url="http://functions.wolfram.com/GammaBetaErf/Gamma2" text="Properties" title="Wolfram Functions Site"/>
+<link url="http://mathworld.wolfram.com/IncompleteGammaFunction.html" text="Definition" title="MathWorld"/>
+</info>
+<info text="(a)_n is the Pochhammer symbol">
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165021ec7h24ef80c3ca00003d33bih0b7a4acg4?MSPStoreType=image/gif&s=49" alt="(a)_n is the Pochhammer symbol" title="(a)_n is the Pochhammer symbol" width="202" height="18"/>
+<link url="http://reference.wolfram.com/mathematica/ref/Pochhammer.html" text="Documentation" title="Mathematica"/>
+<link url="http://functions.wolfram.com/GammaBetaErf/Pochhammer" text="Properties" title="Wolfram Functions Site"/>
+<link url="http://mathworld.wolfram.com/PochhammerSymbol.html" text="Definition" title="MathWorld"/>
+</info>
+<info>
+<link url="http://functions.wolfram.com/GammaBetaErf/Factorial/27/ShowAll.html" text="More information"/>
+</info>
+</infos>
+</pod>
+<pod title="Comparison" scanner="NumberComparison" id="Comparison" position="600" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+~~ 2×10^(-13) × the number of Go positions (~~ 4.6×10^170)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165121ec7h24ef80c3ca00004a383g077a4319ag?MSPStoreType=image/gif&s=49" alt="~~ 2×10^(-13) × the number of Go positions (~~ 4.6×10^170)" title="~~ 2×10^(-13) × the number of Go positions (~~ 4.6×10^170)" width="337" height="18"/>
+</subpod>
+</pod>
+<pod title="Integral representations" scanner="MathematicalFunctionData" id="IntegralRepresentations:MathematicalFunctionIdentityData" position="700" error="false" numsubpods="3">
+<subpod title="">
+<plaintext>100! = integral_0^infinity e^(-t) t^100 dt</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165221ec7h24ef80c3ca000032g58378103f1383?MSPStoreType=image/gif&s=49" alt="100! = integral_0^infinity e^(-t) t^100 dt" title="100! = integral_0^infinity e^(-t) t^100 dt" width="144" height="43"/>
+</subpod>
+<subpod title="">
+<plaintext>100! = integral_0^1 log^100(1/t) dt</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165321ec7h24ef80c3ca000018i91e68cib236e5?MSPStoreType=image/gif&s=49" alt="100! = integral_0^1 log^100(1/t) dt" title="100! = integral_0^1 log^100(1/t) dt" width="156" height="44"/>
+</subpod>
+<subpod title="">
+<plaintext>
+100! = integral_1^infinity e^(-t) t^100 dt+sum_(k=0)^infinity (-1)^k/((101+k) k!)
+</plaintext>
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165421ec7h24ef80c3ca00002ai66762bfbbi869?MSPStoreType=image/gif&s=49" alt="100! = integral_1^infinity e^(-t) t^100 dt+sum_(k=0)^infinity (-1)^k/((101+k) k!)" title="100! = integral_1^infinity e^(-t) t^100 dt+sum_(k=0)^infinity (-1)^k/((101+k) k!)" width="262" height="56"/>
+</subpod>
+<infos count="2">
+<info text="log(x) is the natural logarithm">
+<img src="http://www4a.wolframalpha.com/Calculate/MSP/MSP165521ec7h24ef80c3ca0000453f80745c720348?MSPStoreType=image/gif&s=49" alt="log(x) is the natural logarithm" title="log(x) is the natural logarithm" width="192" height="16"/>
+<link url="http://reference.wolfram.com/mathematica/ref/Log.html" text="Documentation" title="Mathematica"/>
+<link url="http://functions.wolfram.com/ElementaryFunctions/Log" text="Properties" title="Wolfram Functions Site"/>
+<link url="http://mathworld.wolfram.com/NaturalLogarithm.html" text="Definition" title="MathWorld"/>
+</info>
+<info>
+<link url="http://functions.wolfram.com/GammaBetaErf/Factorial/07/ShowAll.html" text="More information"/>
+</info>
+</infos>
+</pod>
+</queryresult>
